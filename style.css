@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Shojumaru');
+
+body {
+  font-family: 'Shojumaru', cursive;
+  background: url('img/bg.png');
+}
+
+#text-container {
+  font-family: 'Shojumaru', cursive;
+  font-size: 24px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+#text-container:focus {
+  outline: 0;
+}
+
+#mute-btn {
+  font-family: 'Shojumaru', cursive;
+  font-size: 24px;
+  border: none;
+  padding: 10px;
+}
+
+#mute-btn:focus {
+  outline: 0;
+}
+
+.boxsizingBorder {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
